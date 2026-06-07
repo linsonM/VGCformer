@@ -1,0 +1,32 @@
+model_id: GEF_all_DLinear_seed2025
+model: DLinear
+data_path: ./GEF.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 8112
+params_M: 0.008112
+model_size_MB: 0.030945
+train_time_sec: 9.53
+test_time_sec: 0.044688
+inference_time_per_sample_ms: 0.006045
+
+Normalized scale:
+test_loss: 0.268121
+mae: 0.335087
+rmse: 0.525508
+mape: 155.272675
+
+Original scale:
+mae: 99.417610
+rmse: 154.458237
+mape: 364272608.000000

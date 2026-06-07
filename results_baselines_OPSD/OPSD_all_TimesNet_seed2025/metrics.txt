@@ -1,0 +1,32 @@
+model_id: OPSD_all_TimesNet_seed2025
+model: TimesNet
+data_path: ./OPSD.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 885762
+params_M: 0.885762
+model_size_MB: 3.378914
+train_time_sec: 674.74
+test_time_sec: 3.151275
+inference_time_per_sample_ms: 0.558044
+
+Normalized scale:
+test_loss: 0.650932
+mae: 0.567088
+rmse: 0.790123
+mape: 344.975616
+
+Original scale:
+mae: 388.004913
+rmse: 580.862183
+mape: 677646208.000000

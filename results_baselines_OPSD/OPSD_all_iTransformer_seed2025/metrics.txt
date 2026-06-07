@@ -1,0 +1,32 @@
+model_id: OPSD_all_iTransformer_seed2025
+model: iTransformer
+data_path: ./OPSD.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 1103640
+params_M: 1.103640
+model_size_MB: 4.210052
+train_time_sec: 3.17
+test_time_sec: 0.039322
+inference_time_per_sample_ms: 0.006963
+
+Normalized scale:
+test_loss: 0.445897
+mae: 0.415408
+rmse: 0.656282
+mape: 266.531952
+
+Original scale:
+mae: 269.274536
+rmse: 428.044189
+mape: 266219696.000000

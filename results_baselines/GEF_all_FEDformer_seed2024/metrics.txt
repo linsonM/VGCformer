@@ -1,0 +1,32 @@
+model_id: GEF_all_FEDformer_seed2024
+model: FEDformer
+data_path: ./GEF.csv
+target: all
+seed: 2024
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 2629123
+params_M: 2.629123
+model_size_MB: 10.029308
+train_time_sec: 159.10
+test_time_sec: 0.340156
+inference_time_per_sample_ms: 0.046017
+
+Normalized scale:
+test_loss: 0.539605
+mae: 0.562137
+rmse: 0.743170
+mape: 265.712463
+
+Original scale:
+mae: 226.791061
+rmse: 388.323761
+mape: 1009857216.000000

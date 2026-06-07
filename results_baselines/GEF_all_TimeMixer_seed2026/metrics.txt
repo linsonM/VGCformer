@@ -1,0 +1,32 @@
+model_id: GEF_all_TimeMixer_seed2026
+model: TimeMixer
+data_path: ./GEF.csv
+target: all
+seed: 2026
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 624333
+params_M: 0.624333
+model_size_MB: 2.381641
+train_time_sec: 39.10
+test_time_sec: 0.157322
+inference_time_per_sample_ms: 0.021283
+
+Normalized scale:
+test_loss: 0.297565
+mae: 0.385270
+rmse: 0.552818
+mape: 193.962784
+
+Original scale:
+mae: 123.995094
+rmse: 189.304611
+mape: 660543296.000000

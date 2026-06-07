@@ -1,0 +1,32 @@
+model_id: GEF_all_Autoformer_seed2026
+model: Autoformer
+data_path: ./GEF.csv
+target: all
+seed: 2026
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 1845763
+params_M: 1.845763
+model_size_MB: 7.041027
+train_time_sec: 10035.89
+test_time_sec: 4.685761
+inference_time_per_sample_ms: 0.633896
+
+Normalized scale:
+test_loss: 0.545017
+mae: 0.564937
+rmse: 0.747740
+mape: 231.395126
+
+Original scale:
+mae: 223.499695
+rmse: 374.340302
+mape: 737731456.000000

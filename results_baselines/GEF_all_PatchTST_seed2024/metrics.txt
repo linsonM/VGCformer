@@ -1,0 +1,32 @@
+model_id: GEF_all_PatchTST_seed2024
+model: PatchTST
+data_path: ./GEF.csv
+target: all
+seed: 2024
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 1085256
+params_M: 1.085256
+model_size_MB: 4.139923
+train_time_sec: 7.71
+test_time_sec: 0.065504
+inference_time_per_sample_ms: 0.008862
+
+Normalized scale:
+test_loss: 0.254460
+mae: 0.334187
+rmse: 0.507685
+mape: 164.655807
+
+Original scale:
+mae: 99.526062
+rmse: 151.834732
+mape: 325662688.000000

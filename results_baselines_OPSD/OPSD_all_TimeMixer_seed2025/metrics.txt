@@ -1,0 +1,32 @@
+model_id: OPSD_all_TimeMixer_seed2025
+model: TimeMixer
+data_path: ./OPSD.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 624333
+params_M: 0.624333
+model_size_MB: 2.381641
+train_time_sec: 29.69
+test_time_sec: 0.085614
+inference_time_per_sample_ms: 0.015161
+
+Normalized scale:
+test_loss: 0.525132
+mae: 0.485088
+rmse: 0.711419
+mape: 347.404053
+
+Original scale:
+mae: 322.278931
+rmse: 488.703247
+mape: 468290816.000000

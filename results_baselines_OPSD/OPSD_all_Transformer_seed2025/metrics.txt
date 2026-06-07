@@ -1,0 +1,32 @@
+model_id: OPSD_all_Transformer_seed2025
+model: Transformer
+data_path: ./OPSD.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 1848835
+params_M: 1.848835
+model_size_MB: 7.052746
+train_time_sec: 68.64
+test_time_sec: 0.246560
+inference_time_per_sample_ms: 0.043662
+
+Normalized scale:
+test_loss: 0.472547
+mae: 0.426215
+rmse: 0.681181
+mape: 329.645813
+
+Original scale:
+mae: 291.213196
+rmse: 465.891327
+mape: 126293728.000000

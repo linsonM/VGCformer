@@ -1,0 +1,32 @@
+model_id: GEF_all_Transformer_seed2025
+model: Transformer
+data_path: ./GEF.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 1848835
+params_M: 1.848835
+model_size_MB: 7.052746
+train_time_sec: 73.05
+test_time_sec: 0.325236
+inference_time_per_sample_ms: 0.043998
+
+Normalized scale:
+test_loss: 0.265770
+mae: 0.337063
+rmse: 0.523002
+mape: 173.374207
+
+Original scale:
+mae: 103.419586
+rmse: 162.092957
+mape: 246568000.000000

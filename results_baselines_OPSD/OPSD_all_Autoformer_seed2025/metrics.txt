@@ -1,0 +1,32 @@
+model_id: OPSD_all_Autoformer_seed2025
+model: Autoformer
+data_path: ./OPSD.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 1845763
+params_M: 1.845763
+model_size_MB: 7.041027
+train_time_sec: 8486.05
+test_time_sec: 3.751078
+inference_time_per_sample_ms: 0.664260
+
+Normalized scale:
+test_loss: 0.752798
+mae: 0.618073
+rmse: 0.861331
+mape: 390.077209
+
+Original scale:
+mae: 488.772400
+rmse: 732.802124
+mape: 356643264.000000

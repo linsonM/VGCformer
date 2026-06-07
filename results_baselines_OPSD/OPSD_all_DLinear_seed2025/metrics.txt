@@ -1,0 +1,32 @@
+model_id: OPSD_all_DLinear_seed2025
+model: DLinear
+data_path: ./OPSD.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 8112
+params_M: 0.008112
+model_size_MB: 0.030945
+train_time_sec: 7.44
+test_time_sec: 0.035042
+inference_time_per_sample_ms: 0.006205
+
+Normalized scale:
+test_loss: 0.410961
+mae: 0.413099
+rmse: 0.640196
+mape: 248.646591
+
+Original scale:
+mae: 294.981995
+rmse: 464.086609
+mape: 213034304.000000

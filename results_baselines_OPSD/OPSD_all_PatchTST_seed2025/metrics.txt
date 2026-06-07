@@ -1,0 +1,32 @@
+model_id: OPSD_all_PatchTST_seed2025
+model: PatchTST
+data_path: ./OPSD.csv
+target: all
+seed: 2025
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 1085256
+params_M: 1.085256
+model_size_MB: 4.139923
+train_time_sec: 6.67
+test_time_sec: 0.051008
+inference_time_per_sample_ms: 0.009033
+
+Normalized scale:
+test_loss: 0.400338
+mae: 0.394462
+rmse: 0.625511
+mape: 256.049072
+
+Original scale:
+mae: 264.905304
+rmse: 420.389557
+mape: 171053520.000000

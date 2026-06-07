@@ -1,0 +1,32 @@
+model_id: OPSD_all_LSTM_seed2024
+model: LSTM
+data_path: ./OPSD.csv
+target: all
+seed: 2024
+seq_len: 168
+label_len: 48
+pred_len: 24
+d_model: 256
+n_heads: 8
+e_layers: 2
+d_layers: 1
+d_ff: 512
+dropout: 0.1
+loss: mse
+params: 812104
+params_M: 0.812104
+model_size_MB: 3.097931
+train_time_sec: 25.69
+test_time_sec: 0.072656
+inference_time_per_sample_ms: 0.012866
+
+Normalized scale:
+test_loss: 0.505445
+mae: 0.451917
+rmse: 0.707022
+mape: 322.779785
+
+Original scale:
+mae: 308.079834
+rmse: 490.886017
+mape: 189799936.000000
